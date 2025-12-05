@@ -228,7 +228,7 @@ export default function GroceryListPage() {
     <div className="min-h-screen bg-background pb-20">
       <div className="max-w-7xl mx-auto p-6">
         <div className="flex flex-col lg:flex-row gap-8">
-          <div className="flex-1 max-w-2xl mx-auto lg:mx-0 space-y-6 pt-20">
+          <div className="flex-1 max-w-2xl mx-auto lg:mx-0 space-y-6 lg:pt-20">
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
